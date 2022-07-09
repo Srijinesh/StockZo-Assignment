@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none; 
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration-color: black;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.signup{
+  border-style: double;
+  
+}
+
